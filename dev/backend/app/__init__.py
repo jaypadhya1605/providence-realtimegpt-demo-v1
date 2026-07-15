@@ -1,0 +1,1 @@
+"""EmpathyAI avatar demo backend."""

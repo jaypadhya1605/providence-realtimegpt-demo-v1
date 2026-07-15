@@ -1,0 +1,17 @@
+name: empathy-avatar-demo
+metadata:
+  template: empathy-avatar-demo@1.0.0
+infra:
+  provider: bicep
+  path: infra
+services:
+  web:
+    project: ./dev/artifacts/app
+    language: py
+    host: appservice
+hooks:
+  predeploy:
+    shell: pwsh
+    run: pwsh ./dev/scripts/test.ps1 -SkipInstall
+    continueOnError: false
+    interactive: false

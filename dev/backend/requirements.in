@@ -1,0 +1,10 @@
+fastapi
+httpx
+pydantic-settings
+uvicorn[standard]
+azure-identity
+azure-ai-voicelive==1.2.0
+azure-monitor-opentelemetry
+azure-storage-blob
+aiohttp
+PyJWT[crypto]

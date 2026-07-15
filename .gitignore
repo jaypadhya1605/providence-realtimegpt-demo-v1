@@ -1,0 +1,32 @@
+# Python
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+
+# Frontend
+dev/frontend/node_modules/
+dev/frontend/dist/
+
+# Generated release artifacts
+dev/artifacts/
+
+# Local configuration
+dev/.env
+dev/.env.local
+dev/backend/.env
+dev/backend/.env.local
+.azure/*/.env
+.azure/
+
+# Non-source collateral
+docs/
+specs/
+agent.md
+
+# Generated infrastructure output
+infra/main.json
+
+# Editor and OS files
+.DS_Store
+Thumbs.db

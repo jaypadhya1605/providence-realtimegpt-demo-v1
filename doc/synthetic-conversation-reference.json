@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0",
+  "datasetId": "empathyai-synthetic-v1",
+  "description": "Synthetic communication moments for an EmpathyAI Azure avatar demonstration.",
+  "records": [
+    {
+      "id": "REF-MARIA-001",
+      "title": "Naming fear before explaining next steps",
+      "scenarioId": "SCN-001",
+      "moment": "The patient says she is scared about what happens next and whether she will suffer.",
+      "learnerApproach": "The learner first reflects the fear, validates the need for a clear answer, and asks which question feels most urgent.",
+      "personaReaction": "The patient remains sad but becomes more open because the fear was named before information was offered.",
+      "coachingInsight": "Reflect the specific concern before moving to explanation or process.",
+      "tags": ["fear", "sadness", "validation", "what happens next", "suffering"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-MARIA-002",
+      "title": "Generic reassurance leaves the concern unanswered",
+      "scenarioId": "SCN-001",
+      "moment": "The patient asks whether she will be in pain and the learner responds only that the team will take good care of her.",
+      "learnerApproach": "The learner is polite but gives generic reassurance without acknowledging fear or answering the active concern.",
+      "personaReaction": "The patient stays guarded and asks again for a direct, plain-language answer.",
+      "coachingInsight": "Warmth does not replace responsiveness; acknowledge the emotion and address the question directly.",
+      "tags": ["generic reassurance", "pain", "responsiveness", "guarded", "direct answer"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-MARIA-003",
+      "title": "Repairing prognosis and palliative jargon",
+      "scenarioId": "SCN-001",
+      "moment": "The learner uses prognosis and palliative pathway without explanation while the patient is processing difficult news.",
+      "learnerApproach": "The learner notices the confusion, apologizes for the clinical wording, explains one idea at a time, and checks what the patient heard.",
+      "personaReaction": "The patient asks a clearer follow-up question after the repair and understanding check.",
+      "coachingInsight": "Repair unexplained jargon immediately and pair plain language with an understanding check.",
+      "tags": ["prognosis", "palliative", "jargon", "plain language", "understanding check"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-DANIEL-001",
+      "title": "Acknowledge the family's protective concern",
+      "scenarioId": "SCN-002",
+      "moment": "A family member says everyone is talking around the family and asks whether the team is listening to the parent's wishes.",
+      "learnerApproach": "The learner names the frustration, recognizes the protective intent, and asks what the parent said mattered most.",
+      "personaReaction": "The family member becomes less defensive because the question about the parent's wishes is taken seriously.",
+      "coachingInsight": "Recognize both the emotion and the value the family member is trying to protect.",
+      "tags": ["family", "wishes", "protective", "frustration", "listening"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-DANIEL-002",
+      "title": "Process language increases frustration",
+      "scenarioId": "SCN-002",
+      "moment": "The family member asks for a clear answer and receives a vague description of meetings, teams, and next steps.",
+      "learnerApproach": "The learner initially hides behind process language, then repairs by stating what can be answered now and what still requires discussion.",
+      "personaReaction": "The family member stays frustrated during the vague answer but settles when uncertainty is named honestly.",
+      "coachingInsight": "Do not substitute process for an answer; distinguish known information from genuine uncertainty.",
+      "tags": ["vague", "process", "uncertainty", "direct answer", "de-escalation"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-DANIEL-003",
+      "title": "Check understanding without taking sides",
+      "scenarioId": "SCN-002",
+      "moment": "Relatives disagree about the direction of care and the family member pressures the learner to declare who is right.",
+      "learnerApproach": "The learner does not arbitrate the family dispute, reflects the shared concern, and checks how the family understands the parent's expressed wishes.",
+      "personaReaction": "The family member remains concerned but shifts from accusation toward clarification.",
+      "coachingInsight": "Stay with communication and understanding rather than deciding the clinical or family dispute.",
+      "tags": ["family disagreement", "neutrality", "understanding", "wishes", "clarification"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-AISHA-001",
+      "title": "Make it safe to ask again",
+      "scenarioId": "SCN-003",
+      "moment": "The patient admits she nodded even though she did not understand and feels embarrassed asking for another explanation.",
+      "learnerApproach": "The learner removes blame, thanks the patient for saying so, and restarts with one short plain-language idea.",
+      "personaReaction": "The patient becomes less guarded and is willing to identify the part that remains confusing.",
+      "coachingInsight": "Normalize clarification and make understanding a shared responsibility.",
+      "tags": ["embarrassed", "confused", "psychological safety", "start over", "plain language"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-AISHA-002",
+      "title": "Explain one clinical term at a time",
+      "scenarioId": "SCN-003",
+      "moment": "The learner uses comorbidity, differential, and clinical pathway in one explanation.",
+      "learnerApproach": "The learner repairs by removing unnecessary terms, defining the one term that must remain, and pausing before the next idea.",
+      "personaReaction": "The patient can repeat the main point in her own words and asks a focused follow-up question.",
+      "coachingInsight": "Reduce cognitive load by explaining one necessary term at a time.",
+      "tags": ["comorbidity", "differential", "clinical pathway", "jargon", "cognitive load"],
+      "approvedForDemo": true
+    },
+    {
+      "id": "REF-AISHA-003",
+      "title": "Own the communication repair",
+      "scenarioId": "SCN-003",
+      "moment": "The patient says the previous explanation made her feel talked down to.",
+      "learnerApproach": "The learner acknowledges the impact without defending intent, apologizes briefly, and asks permission to try again more clearly.",
+      "personaReaction": "The patient moves from frustration toward cautious relief after the learner owns the repair.",
+      "coachingInsight": "Acknowledge impact before explaining intent; keep the apology short and make the next attempt concrete.",
+      "tags": ["repair", "impact", "apology", "frustration", "relief"],
+      "approvedForDemo": true
+    }
+  ]
+}
